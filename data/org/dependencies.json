@@ -1,0 +1,5 @@
+{
+  "_note": "Synthetic dependency register used by the dependency_check tool. Keys are task titles (lower case).",
+  "assignment_precedence": [],
+  "scheduling_precedence": [["payment api integration", "release notes"]]
+}

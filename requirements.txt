@@ -1,0 +1,14 @@
+qiskit>=2.0,<3
+qiskit-aer>=0.15
+qiskit-optimization>=0.7
+ortools>=9.10
+scipy>=1.11
+numpy>=1.26
+scikit-learn>=1.4
+pydantic>=2.6
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+httpx>=0.27
+pillow>=10
+pytesseract>=0.3.10

@@ -1,0 +1,8 @@
+{
+  "_note": "Synthetic mock calendar used by the calendar_availability tool. Hours available per person per date.",
+  "workday": {"start": "09:00", "hours": 8},
+  "availability": {
+    "2026-11-12": {"Anika": 8, "Ravi": 4, "Kiran": 8},
+    "2026-11-13": {"Anika": 8, "Ravi": 8, "Kiran": 6}
+  }
+}

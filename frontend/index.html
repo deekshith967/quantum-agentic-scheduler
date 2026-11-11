@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quantum-Enhanced Agentic Scheduler</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>Quantum-Enhanced Agentic Scheduler</h1>
+    <p class="sub">Agentic task planning with QAOA task allocation · prototype of the 15-layer architecture</p>
+  </div>
+  <div class="meta" id="health">checking backend…</div>
+</header>
+
+<nav class="layers" id="layernav"></nav>
+
+<main>
+  <section class="card" id="sec-input">
+    <div class="card-h"><h2>1 · Inputs</h2><span class="tag">Tier A · L1</span></div>
+    <div class="grid3">
+      <div>
+        <label>Typed brief (text)</label>
+        <textarea id="brief" rows="4" placeholder="Plan Thursday's release tasks for Anika and Ravi, keep the load fair."></textarea>
+        <button class="ghost" id="btn-brief">Add brief</button>
+      </div>
+      <div>
+        <label>Task-board photo (vision)</label>
+        <input type="file" id="img" accept="image/*">
+        <div class="thumb" id="thumb"><span>No image yet</span></div>
+      </div>
+      <div>
+        <label>Voice note (audio) or transcript (.txt)</label>
+        <input type="file" id="aud" accept="audio/*,.txt">
+        <p class="hint">Audio needs faster-whisper installed locally. A .txt transcript always works.</p>
+        <pre class="small" id="transcript"></pre>
+      </div>
+    </div>
+    <div class="row">
+      <button id="btn-new">New session</button>
+      <button class="primary" id="btn-demo">Load demo scenario</button>
+      <button class="primary" id="btn-perceive">Run perception</button>
+      <span class="pill" id="sid">no session</span>
+    </div>
+  </section>
+
+  <section class="card" id="sec-perception">
+    <div class="card-h"><h2>2 · Perception and project state</h2><span class="tag">Tier A · L2, L3</span></div>
+    <div class="grid2">
+      <div><h3>Extracted items</h3><div id="items" class="tablewrap"><p class="muted">Run perception first.</p></div></div>
+      <div><h3>OCR on the board</h3><canvas id="ocr" width="600" height="400"></canvas></div>
+    </div>
+    <details><summary>Draft ProjectState (JSON)</summary><pre id="draft"></pre></details>
+  </section>
+
+  <section class="card" id="sec-plan">
+    <div class="card-h"><h2>3 · Plan</h2><span class="tag">Tiers B to D · L4 to L11</span></div>
+    <div class="row wrap">
+      <label class="inline">Mode <select id="mode"><option value="quantum_eval">quantum evaluation</option><option value="production">production (CP-SAT is an arm)</option></select></label>
+      <label class="inline">Arm <select id="arm"><option value="">bandit decides</option><option>qaoa_p1</option><option>qaoa_p2</option><option>qaoa_p3</option><option>cpsat</option></select></label>
+      <label class="inline">Restarts <input type="number" id="restarts" value="10" min="1" max="30"></label>
+      <label class="inline">Optimiser statevector <select id="osim"><option value="numpy">NumPy (fast, validated)</option><option value="qiskit">Qiskit Statevector</option></select></label>
+      <label class="inline"><input type="checkbox" id="noisy"> also run illustrative noise model</label>
+      <button class="primary" id="btn-plan">Run agent</button>
+      <span class="spinner hidden" id="spin">running…</span>
+    </div>
+    <p class="note">QAOA circuits are simulated on a classical CPU with Qiskit Aer. No quantum hardware is used and no quantum advantage is claimed.</p>
+  </section>
+
+  <section class="card" id="sec-react">
+    <div class="card-h"><h2>4 · ReAct multi-hop trace and retrieved evidence</h2><span class="tag">Tier B · L4 to L7</span></div>
+    <div id="trace" class="tablewrap"><p class="muted">No plan yet.</p></div>
+    <h3>Cost table c(t, r) from RAG effort estimates</h3>
+    <div id="costs" class="tablewrap"></div>
+    <div class="row"><input id="q" placeholder="Search the policy corpus (BM25 + dense + RRF)"><button class="ghost" id="btn-search">Search</button></div>
+    <div id="search"></div>
+  </section>
+
+  <section class="card" id="sec-opt">
+    <div class="card-h"><h2>5 · Strategy and optimisation</h2><span class="tag">Tier C · L8 to L10</span></div>
+    <div class="grid2">
+      <div><h3>Contextual bandit (UCB)</h3><div id="bandit"></div></div>
+      <div><h3>QUBO and Ising</h3><div id="qubo"></div></div>
+    </div>
+    <h3>QAOA measurement counts (Aer, <span id="shots">1024</span> shots)</h3>
+    <div id="hist" class="hist"></div>
+    <div id="qinfo" class="small"></div>
+    <h3>Solver comparison</h3>
+    <div id="solvers" class="tablewrap"></div>
+  </section>
+
+  <section class="card" id="sec-decision">
+    <div class="card-h"><h2>6 · Decision and human review</h2><span class="tag">Tier D · L11, L12</span></div>
+    <div id="decision"><p class="muted">No decision yet.</p></div>
+    <div id="gantt" class="gantt"></div>
+    <div id="review"></div>
+  </section>
+
+  <section class="card" id="sec-learn">
+    <div class="card-h"><h2>7 · Ground truth and feedback</h2><span class="tag">Tiers D, E · L13, L14</span></div>
+    <div class="grid2">
+      <div><h3>Ground truth</h3><div id="gt"></div></div>
+      <div><h3>Record actual hours</h3><div id="outcomes"></div></div>
+    </div>
+    <div id="learn"></div>
+  </section>
+
+  <section class="card" id="sec-audit">
+    <div class="card-h"><h2>8 · Audit log and mock systems</h2><span class="tag">L6, L15</span></div>
+    <div class="row"><button class="ghost" id="btn-audit">Refresh</button></div>
+    <div class="grid2"><div id="audit" class="tablewrap"></div><div id="jira" class="tablewrap"></div></div>
+  </section>
+</main>
+<footer>Synthetic data only. Prototype for research and teaching. See docs/IMPLEMENTATION_STATUS.md.</footer>
+<script src="app.js"></script>
+</body>
+</html>

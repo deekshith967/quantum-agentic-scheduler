@@ -1,0 +1,9 @@
+{
+  "_note": "Synthetic team roster used by the skill_lookup tool.",
+  "people": [
+    {"id": "Anika", "role": "backend", "skills": ["backend", "docs"]},
+    {"id": "Ravi", "role": "qa", "skills": ["qa", "docs"]},
+    {"id": "Meera", "role": "pm", "skills": ["planning"]},
+    {"id": "Kiran", "role": "frontend", "skills": ["frontend", "qa"]}
+  ]
+}

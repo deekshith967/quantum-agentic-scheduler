@@ -1,0 +1,1644 @@
+{
+ "config": {
+  "cases": 30,
+  "restarts": 6,
+  "seed": 2026,
+  "shots": 1024,
+  "optimiser_sim": "numpy",
+  "backend": "Qiskit Aer (classical simulation)"
+ },
+ "rows": [
+  {
+   "case_id": "BM-00",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.659,
+   "extraction": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1": 0.25,
+    "tp": 1,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9486,
+     "P_opt": 0.2334,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.912,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9864,
+     "P_opt": 0.6441,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.244,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9789,
+     "P_opt": 0.861,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.003,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-01",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.575,
+   "extraction": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 2,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9003,
+     "P_opt": 0.7094,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.464,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9811,
+     "P_opt": 0.7426,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.503,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9654,
+     "P_opt": 0.8026,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.026,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-02",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.677,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.8015,
+     "P_opt": 0.7071,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.572,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.6158,
+     "P_opt": 0.5444,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.31,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.8129,
+     "P_opt": 0.6973,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.119,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-03",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.729,
+   "extraction": {
+    "precision": 0.2,
+    "recall": 0.2,
+    "f1": 0.2,
+    "tp": 1,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.4016,
+     "P_opt": 0.3461,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.369,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.517,
+     "P_opt": 0.4419,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.1,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 13.1 > 11.655)",
+     "P_feasible": 0.7598,
+     "P_opt": 0.021,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.96,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-04",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.611,
+   "extraction": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.5122,
+     "P_opt": 0.2172,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.596,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9495,
+     "P_opt": 0.5885,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.519,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9607,
+     "P_opt": 0.9549,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.032,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-05",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.685,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.7855,
+     "P_opt": 0.1119,
+     "gap_final": 0.008403,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.363,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9192,
+     "P_opt": 0.2805,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.443,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9232,
+     "P_opt": 0.0312,
+     "gap_final": 0.008403,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.086,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-06",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.694,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.4655,
+     "P_opt": 0.2713,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.478,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.471,
+     "P_opt": 0.2567,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.6,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.575,
+     "P_opt": 0.2507,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.08,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-07",
+   "people": 2,
+   "expected_hitl": "standard",
+   "perception_s": 0.645,
+   "extraction": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1": 0.6,
+    "tp": 3,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "2": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "3": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    }
+   }
+  },
+  {
+   "case_id": "BM-08",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.61,
+   "extraction": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1": 0.25,
+    "tp": 1,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.969,
+     "P_opt": 0.2513,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.325,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9961,
+     "P_opt": 0.4235,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.864,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9874,
+     "P_opt": 0.7472,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.035,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-09",
+   "people": 2,
+   "expected_hitl": "standard",
+   "perception_s": 0.61,
+   "extraction": {
+    "precision": 0.6667,
+    "recall": 0.6667,
+    "f1": 0.6667,
+    "tp": 2,
+    "pred": 3,
+    "gold": 3
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9696,
+     "P_opt": 0.509,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.305,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9942,
+     "P_opt": 0.9377,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.262,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9929,
+     "P_opt": 0.9817,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.877,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-10",
+   "people": 2,
+   "expected_hitl": "standard",
+   "perception_s": 0.669,
+   "extraction": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 2,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "2": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "3": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    }
+   }
+  },
+  {
+   "case_id": "BM-11",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.599,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "2": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "3": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    }
+   }
+  },
+  {
+   "case_id": "BM-12",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.69,
+   "extraction": {
+    "precision": 0.3333,
+    "recall": 0.3333,
+    "f1": 0.3333,
+    "tp": 2,
+    "pred": 6,
+    "gold": 6
+   },
+   "depths": {
+    "1": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "2": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "3": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    }
+   }
+  },
+  {
+   "case_id": "BM-13",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.652,
+   "extraction": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1": 0.6,
+    "tp": 3,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "2": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "3": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    }
+   }
+  },
+  {
+   "case_id": "BM-14",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.644,
+   "extraction": {
+    "precision": 0.2,
+    "recall": 0.2,
+    "f1": 0.2,
+    "tp": 1,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 13.6 > 10.92)",
+     "P_feasible": 0.2684,
+     "P_opt": 0.055,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.296,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.7341,
+     "P_opt": 0.6743,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.098,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.8481,
+     "P_opt": 0.8423,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.908,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-15",
+   "people": 2,
+   "expected_hitl": "standard",
+   "perception_s": 0.639,
+   "extraction": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1": 0.6,
+    "tp": 3,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.0961,
+     "P_opt": 0.0961,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.278,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.08,
+     "P_opt": 0.08,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.122,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.0296,
+     "P_opt": 0.0296,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.158,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-16",
+   "people": 2,
+   "expected_hitl": "standard",
+   "perception_s": 0.658,
+   "extraction": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1": 0.25,
+    "tp": 1,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.4191,
+     "P_opt": 0.1353,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.413,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.693,
+     "P_opt": 0.5985,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.275,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 4,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.9186,
+     "P_opt": 0.7986,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.051,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-17",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.528,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.3928,
+     "P_opt": 0.1964,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.34,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.272,
+     "P_opt": 0.136,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.552,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.1986,
+     "P_opt": 0.0993,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.027,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-18",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.553,
+   "extraction": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 2,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.7496,
+     "P_opt": 0.3748,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.474,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.8792,
+     "P_opt": 0.4396,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.146,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 3,
+     "encoding": "binary",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.905,
+     "P_opt": 0.4525,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.964,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-19",
+   "people": 2,
+   "expected_hitl": "flagged",
+   "perception_s": 0.653,
+   "extraction": {
+    "precision": 0.8333,
+    "recall": 0.8333,
+    "f1": 0.8333,
+    "tp": 5,
+    "pred": 6,
+    "gold": 6
+   },
+   "depths": {
+    "1": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "2": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    },
+    "3": {
+     "status": "no decision",
+     "error": "no feasible assignment (infeasible)"
+    }
+   }
+  },
+  {
+   "case_id": "BM-20",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.532,
+   "extraction": {
+    "precision": 0.2,
+    "recall": 0.2,
+    "f1": 0.2,
+    "tp": 1,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.1332,
+     "P_opt": 0.0179,
+     "gap_final": 0.035088,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 0.695,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 20.8 > 11.97)",
+     "P_feasible": 0.0119,
+     "P_opt": 0.0015,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.101,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 20.8 > 11.97)",
+     "P_feasible": 0.0245,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.784,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-21",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.626,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.0683,
+     "P_opt": 0.0,
+     "gap_final": 0.045455,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.938,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 20.4 > 13.86)",
+     "P_feasible": 0.0044,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 3.514,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 14.4 > 13.86)",
+     "P_feasible": 0.0087,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 4.616,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-22",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.631,
+   "extraction": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1": 0.6,
+    "tp": 3,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 19.2 > 9.45)",
+     "P_feasible": 0.1668,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.029,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 20.8 > 9.45)",
+     "P_feasible": 0.0034,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 3.617,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 14.2 > 9.45)",
+     "P_feasible": 0.0059,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 4.663,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-23",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.521,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 17.4 > 8.61)",
+     "P_feasible": 0.0546,
+     "P_opt": 0.004,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.29,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 16.8 > 8.61)",
+     "P_feasible": 0.0308,
+     "P_opt": 0.0049,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.324,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 22.8 > 8.61)",
+     "P_feasible": 0.0151,
+     "P_opt": 0.0013,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.732,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-24",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.61,
+   "extraction": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1": 0.6,
+    "tp": 3,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.0252,
+     "P_opt": 0.0047,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.99,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 21.6 > 16.17)",
+     "P_feasible": 0.0022,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 3.225,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.0044,
+     "P_opt": 0.0015,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 4.892,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-25",
+   "people": 3,
+   "expected_hitl": "standard",
+   "perception_s": 0.656,
+   "extraction": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4,
+    "tp": 2,
+    "pred": 5,
+    "gold": 5
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 17.4 > 16.17)",
+     "P_feasible": 0.0356,
+     "P_opt": 0.0045,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.454,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "no feasible QAOA sample",
+     "P_feasible": 0,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 3.583,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "no feasible QAOA sample",
+     "P_feasible": 0,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 4.633,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-26",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.525,
+   "extraction": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 2,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 13.2 > 8.61)",
+     "P_feasible": 0.0528,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.25,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 12.6 > 8.61)",
+     "P_feasible": 0.0461,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.183,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 12.6 > 8.61)",
+     "P_feasible": 0.0319,
+     "P_opt": 0.0016,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.781,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-27",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.563,
+   "extraction": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "pred": 4,
+    "gold": 4
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.3088,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.317,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 15.0 > 11.97)",
+     "P_feasible": 0.1279,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.323,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 13.2 > 11.97)",
+     "P_feasible": 0.0853,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.724,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-28",
+   "people": 3,
+   "expected_hitl": "standard",
+   "perception_s": 0.552,
+   "extraction": {
+    "precision": 0.3333,
+    "recall": 0.3333,
+    "f1": 0.3333,
+    "tp": 1,
+    "pred": 3,
+    "gold": 3
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.3436,
+     "P_opt": 0.0174,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.547,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 17.4 > 8.61)",
+     "P_feasible": 0.086,
+     "P_opt": 0.0053,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.318,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 9,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 14.4 > 8.61)",
+     "P_feasible": 0.0343,
+     "P_opt": 0.0034,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 2.709,
+     "violations_in_proposal": 0
+    }
+   }
+  },
+  {
+   "case_id": "BM-29",
+   "people": 3,
+   "expected_hitl": "flagged",
+   "perception_s": 0.627,
+   "extraction": {
+    "precision": 0.3333,
+    "recall": 0.3333,
+    "f1": 0.3333,
+    "tp": 2,
+    "pred": 6,
+    "gold": 6
+   },
+   "depths": {
+    "1": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "cp-sat",
+     "fallback_reason": "quantum underperformed (cost 17.4 > 14.28)",
+     "P_feasible": 0.0029,
+     "P_opt": 0.0,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 1.717,
+     "violations_in_proposal": 0
+    },
+    "2": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.0008,
+     "P_opt": 0.0003,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 3.652,
+     "violations_in_proposal": 0
+    },
+    "3": {
+     "status": "ok",
+     "n_qubits": 12,
+     "encoding": "one_hot",
+     "chunks": 1,
+     "solver_used": "qaoa",
+     "fallback_reason": null,
+     "P_feasible": 0.0008,
+     "P_opt": 0.0008,
+     "gap_final": 0.0,
+     "cpsat_gap": 0.0,
+     "hitl": "flagged",
+     "latency_s": 4.595,
+     "violations_in_proposal": 0
+    }
+   }
+  }
+ ]
+}

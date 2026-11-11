@@ -1,0 +1,34 @@
+id,title,skill,person,actual_h,date
+T-080,Stripe API integration,backend,Anika,3.5,2026-06-18
+T-081,Payment gateway API integration,backend,Anika,2.5,2026-05-07
+T-082,Refund service API endpoint,backend,Anika,3.0,2026-08-20
+T-083,Orders API integration,backend,Anika,3.0,2026-10-15
+T-084,Payment webhook API integration,backend,Ravi,5.5,2026-03-12
+T-085,Shipping API integration,backend,Ravi,4.5,2026-03-12
+T-086,Coupon service API endpoint,backend,Ravi,5.0,2026-09-24
+T-087,Checkout UI testing,qa,Anika,4.0,2026-03-12
+T-088,Login UI testing,qa,Anika,4.5,2026-06-18
+T-089,Profile page UI testing,qa,Anika,3.5,2026-09-24
+T-090,Checkout UI testing,qa,Ravi,2.0,2026-03-12
+T-091,Search UI testing,qa,Ravi,2.5,2026-09-24
+T-092,Cart UI regression testing,qa,Ravi,1.5,2026-05-07
+T-093,Login UI testing,qa,Ravi,2.0,2026-03-12
+T-094,Release notes v2.3,docs,Anika,2.0,2026-03-12
+T-095,Release notes v2.4,docs,Anika,2.5,2026-08-20
+T-096,API changelog notes,docs,Anika,1.5,2026-08-20
+T-097,Release notes v2.2,docs,Ravi,1.0,2026-03-12
+T-098,Release notes v2.4 test summary,docs,Ravi,1.5,2026-05-07
+T-099,QA release notes,docs,Ravi,0.5,2026-03-12
+T-100,Checkout layout component,frontend,Kiran,3.0,2026-09-24
+T-101,Cart UI component,frontend,Kiran,2.5,2026-08-20
+T-102,Exploratory UI testing,qa,Kiran,3.0,2026-03-12
+T-103,Search UI testing,qa,Kiran,3.5,2026-09-24
+T-104,Legacy payment API integration,backend,Anika,9.0,2024-02-01
+T-105,Inventory API integration,backend,Kiran,5.0,2026-07-09
+T-106,Search service API endpoint,backend,Kiran,4.5,2026-09-03
+T-107,Release notes v2.3 frontend,docs,Kiran,2.0,2026-06-18
+T-108,UI changelog notes,docs,Kiran,2.5,2026-10-02
+T-109,Admin layout component,frontend,Anika,4.0,2026-05-21
+T-110,Profile UI component,frontend,Anika,3.5,2026-08-27
+T-111,Banner layout component,frontend,Ravi,4.5,2026-04-16
+T-112,Footer UI component,frontend,Ravi,4.0,2026-09-10

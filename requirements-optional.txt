@@ -1,0 +1,4 @@
+# Real speech-to-text for audio uploads (downloads Whisper weights on first use)
+faster-whisper>=1.0
+# Real quantum hardware (needs an IBM Quantum account; untested in this prototype)
+qiskit-ibm-runtime>=0.25

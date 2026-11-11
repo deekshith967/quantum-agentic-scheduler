@@ -1,0 +1,24 @@
+# Prototype deployment: one application container (API + agent + solvers + static UI).
+# The report's full Compose design (separate workers, Postgres/pgvector, Redis, MinIO,
+# Langfuse, MLflow) is documented in docs/DEPLOYMENT.md as the production target.
+services:
+  app:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      QUANTUM_BACKEND: aer          # aer | aer_noisy | ibm_runtime
+      QAS_OPTIMISER_SIM: numpy      # numpy | qiskit
+      QAS_QAOA_RESTARTS: "10"
+      QAS_TODAY: "2026-11-11"       # fixes the planning date of the synthetic demo
+      # Optional local LLM planner (OpenAI-compatible, e.g. the ollama service below):
+      # QAS_LLM_BASE_URL: http://ollama:11434/v1
+      # QAS_LLM_MODEL: qwen2.5:3b-instruct
+    volumes:
+      - runtime:/app/data/runtime
+  # ollama:
+  #   image: ollama/ollama
+  #   profiles: ["llm"]
+  #   volumes: ["ollama:/root/.ollama"]
+volumes:
+  runtime: {}
+  # ollama: {}
